@@ -4,9 +4,7 @@ namespace testIntuit.Utils
 {
     public class Validations
     {
-        // Expresión regular para validar la fecha de nacimiento en formato ISO 8601
-        const string fechaNac = @"^\d{4}-\d{2}-\d{2}$";
-
+        
         // Expresión regular para validar el CUIT en formato argentino
         const string cuitFormato = @"^\d{2}-\d{8}-\d{1}$";
 
